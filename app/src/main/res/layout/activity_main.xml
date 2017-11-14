@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.celebritydb.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="84dp"
+        android:text="Celebrity Database"
+        android:textSize="28sp"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/addCeleb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Celebrity"
+        tools:layout_marginTop="@android:dimen/app_icon_size" />
+    <Button
+        android:text="View Celebrities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_marginTop="12sp"
+        android:id="@+id/viewCelebs"
+        />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24sp"
+        tools:layout_marginLeft="100sp"
+        android:hint="First name"/>
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24sp"
+        tools:layout_marginLeft="100sp"
+        android:hint="Last Name"/>
+
+
+</LinearLayout>
